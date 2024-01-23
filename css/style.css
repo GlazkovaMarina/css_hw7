@@ -395,14 +395,14 @@
 
 @media (max-width:340px) {
     .center {
-        padding-left: calc(50% - 343px/2);
-        padding-right: calc(50% - 343px/2);
+        padding-left: calc(50% - 300px/2);
+        padding-right: calc(50% - 300px/2);
     }
     .header__main {
-        gap: 200px;
+        gap: 100px;
     }
     .header__main__left {
-        align-items: flex-end;
+        gap: 20px;
     }
     .header__main__right2 {
         display: none;
@@ -442,19 +442,6 @@
     }
     .page3 {
         padding-bottom: 85px;
-    }
-}
-
-@media (max-width:354px) {
-    .center {
-        padding-left: calc(50% - 300px/2);
-        padding-right: calc(50% - 300px/2);
-    }
-    .header__main {
-        gap: 100px;
-    }
-    .header__main__left {
-        gap: 20px;
     }
     .page3__photo {
         width: 100%;
