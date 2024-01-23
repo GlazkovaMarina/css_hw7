@@ -393,7 +393,7 @@
     }
 }
 
-@media (max-width:340px) {
+@media (max-width:354px) {
     .center {
         padding-left: calc(50% - 300px/2);
         padding-right: calc(50% - 300px/2);
