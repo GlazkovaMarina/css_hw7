@@ -352,10 +352,7 @@
     .header__main__left {
         align-items: flex-end;
     }
-    .header__main__right2 {
-        display: none;
-    }
-    .header__main__right3 {
+    .display__none {
         display: none;
     }
     .page1 {
@@ -403,12 +400,6 @@
     }
     .header__main__left {
         gap: 20px;
-    }
-    .header__main__right2 {
-        display: none;
-    }
-    .header__main__right3 {
-        display: none;
     }
     .page1 {
         padding-top: 148px;
