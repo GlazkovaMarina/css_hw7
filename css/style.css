@@ -113,6 +113,10 @@
     z-index: -1;
 }
 
+.big__card__photo {
+    position: inherit;
+}
+
 .page2__h3 {
     font-weight: 700;
     font-size: 24px;
@@ -207,6 +211,45 @@
     border-style: solid;
     font-size: 16px;
     font-weight: 400;
+}
+
+.page4 {
+    padding-top: 104px;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222224;
+    gap: 30px;
+}
+
+.page4__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4__img {
+    margin-bottom: 28.07px;
+}
+
+.page4__h2 {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.page4__p {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-weight: 400;
+    width: 360px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
 }
 
 @media (max-width:1154px) {
