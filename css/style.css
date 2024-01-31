@@ -39,7 +39,7 @@ header svg:hover path {
     fill: #F16D7F;
 }
 
-.page1 {
+.promo {
     background-color: #F1E4E6;
     display: flex;
     align-items: center;
@@ -48,32 +48,32 @@ header svg:hover path {
     padding-right: calc(50% - 1600px/2);
 }
 
-.page1__content {
+.promo__content {
     display: inline-block;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
     margin-bottom: 90px;
 }
 
-.page1__photo {
+.promo__photo {
     width: 50%;
 }
 
-.page1__title__start {
+.promo__title__start {
     color: #222;
     font-size: 48px;
     line-height: 58px;
     font-weight: 900;
 }
 
-.page1__title__end {
+.promo__title__end {
     color: #222;
     font-size: 32px;
     font-weight: 700;
     line-height: 38.4px;
 }
 
-.page2 {
+.offer {
     padding-top: 65px;
     padding-bottom: 96px;
     display: grid;
@@ -121,14 +121,14 @@ header svg:hover path {
     position: inherit;
 }
 
-.page2__h3 {
+.offer__h3 {
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     text-align: center;
 }
 
-.page2__text {
+.offer__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -136,7 +136,7 @@ header svg:hover path {
     color: #FFFFFF;
 }
 
-.page3 {
+.featured_items_header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +144,7 @@ header svg:hover path {
     padding-bottom: 96px;
 }
 
-.page3__product {
+.featured_items_header__product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -152,17 +152,17 @@ header svg:hover path {
     margin-top: 49px;
 }
 
-.page3__product__image {
+.featured_items_header__product__image {
     width: 100%;
     height: 420px;
     position: relative;
 }
 
-.page3__photo {
+.featured_items_header__photo {
     width: 100%;
 }
 
-.page3__product__content:hover .page3__product__img__hover__bg {
+.featured_items_header__product__content:hover .featured_items_header__product__img__hover__bg {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -176,11 +176,11 @@ header svg:hover path {
     align-items: center;
 }
 
-.page3__product__button {
+.featured_items_header__product__button {
     display: none;
 }
 
-.page3__product__content:hover .page3__product__button {
+.featured_items_header__product__content:hover .featured_items_header__product__button {
     color: #FFF;
     font-size: 14px;
     font-weight: 400;
@@ -192,7 +192,7 @@ header svg:hover path {
     background: transparent;
 }
 
-.page3__heading {
+.featured_items_header__heading {
     color: #222;
     font-size: 30px;
     font-weight: 400;
@@ -200,7 +200,7 @@ header svg:hover path {
     text-align: center;
 }
 
-.page3__text {
+.featured_items_header__text {
     color: #9F9F9F;
     font-size: 14px;
     font-weight: 400;
@@ -209,7 +209,7 @@ header svg:hover path {
     margin-top: 6px;
 }
 
-.page3__product__text {
+.featured_items_header__product__text {
     padding: 24.35px 28.8px 20px 16.46px;
     display: flex;
     justify-content: center;
@@ -217,25 +217,25 @@ header svg:hover path {
     flex-direction: column;
 }
 
-.page3__product__content {
+.featured_items_header__product__content {
     background: #F8F8F8;
 }
 
-.page3__product__name {
+.featured_items_header__product__name {
     color: #000;
     font-size: 13px;
     font-weight: 400;
     padding-bottom: 12.65px;
 }
 
-.page3__product__description {
+.featured_items_header__product__description {
     color: #5D5D5D;
     font-size: 14px;
     font-weight: 300;
     padding-bottom: 18px;
 }
 
-.page3__product__price {
+.featured_items_header__product__price {
     font-size: 16px;
     font-weight: 400;
 }
@@ -244,7 +244,7 @@ header svg:hover path {
     color: #F16D7F;
 }
 
-.page3__button {
+.featured_items_header__button {
     margin-top: 48px;
     padding-top: 15px;
     padding-left: 39px;
@@ -257,12 +257,12 @@ header svg:hover path {
     font-weight: 400;
 }
 
-.page3__button:hover {
+.featured_items_header__button:hover {
     background-color: #F16D7F;
     color: #fff;
 }
 
-.page4 {
+.catalog {
     padding: 104px 0;
     display: flex;
     justify-content: center;
@@ -271,29 +271,29 @@ header svg:hover path {
     gap: 30px;
 }
 
-.page4__info {
+.catalog__info {
     max-width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.page4__img {
+.catalog__img {
     margin-bottom: 28px;
 }
 
-.page4__img__2 {
+.catalog__img__2 {
     margin-bottom: 24px;
 }
 
-.page4__h2 {
+.catalog__h2 {
     color: #FBFBFB;
     font-size: 19.96px;
     font-weight: 400;
     margin-bottom: 16px;
 }
 
-.page4__p {
+.catalog__p {
     color: #FBFBFB;
     text-align: center;
     font-size: 13.972px;
@@ -301,7 +301,7 @@ header svg:hover path {
     max-width: 85%;
 }
 
-.page5 {
+.advantages {
     background-image: url(../img/page5.png);
     background-color: rgba(244, 244, 244, 0.70);
     background-blend-mode: overlay;
@@ -313,7 +313,7 @@ header svg:hover path {
     flex-wrap: nowrap;
 }
 
-.page5__content__left {
+.advantages__content__left {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -321,42 +321,42 @@ header svg:hover path {
     max-width: 360px;
 }
 
-.page5__left__text {
+.advantages__left__text {
     text-align: center;
 }
 
-.page5__content__right {
+.advantages__content__right {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
 }
 
-.page5__content__right__text {
+.advantages__content__right__text {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.page5__content__right__p1 {
+.advantages__content__right__p1 {
     color: #222224;
     font-size: 24px;
     font-weight: 700;
     line-height: 167.2%;
 }
 
-.page5__content__right__p2 {
+.advantages__content__right__p2 {
     color: #222224;
     font-size: 18px;
     font-weight: 400;
     line-height: 167.2%;
 }
 
-.page5__content__right__form {
+.advantages__content__right__form {
     display: flex;
 }
 
-.page5__content__right__form input {
+.advantages__content__right__form input {
     padding: 16px 22px;
     color: #222224;
     background-color: #E1E1E1;
@@ -368,7 +368,7 @@ header svg:hover path {
     border-bottom-left-radius: 50px;
 }
 
-.page5__content__right__form button {
+.advantages__content__right__form button {
     background-color: #E05C6E;
     color: #FFF;
     text-align: center;
@@ -430,40 +430,40 @@ header svg:hover path {
         padding-left: calc(50% - 1000px/2);
         padding-right: calc(50% - 1000px/2);
     }
-    .page1 {
+    .promo {
         margin-bottom: 65px;
     }
-    .page1__photo {
+    .promo__photo {
         width: 45%;
     }
-    .page1__content {
+    .promo__content {
         margin-bottom: 20px;
     }
-    .page1__title__start {
+    .promo__title__start {
         font-size: 44px;
     }
-    .page1__title__end {
+    .promo__title__end {
         font-size: 24px;
     }
-    .page2 {
+    .offer {
         padding-bottom: 100px;
         gap: 24px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 230px 160px;
     }
-    .page3 {
+    .featured_items_header {
         padding-bottom: 70px;
     }
-    .page3__text {
+    .featured_items_header__text {
         margin-top: 5px;
     }
-    .page3__product {
+    .featured_items_header__product {
         grid-template-columns: repeat(2, 360px);
         grid-template-rows: repeat(3, 1fr);
         gap: 40px;
         margin-top: 56px;
     }
-    .page3__button {
+    .featured_items_header__button {
         margin-top: 38px
     }
 }
@@ -473,43 +473,43 @@ header svg:hover path {
         padding-left: calc(50% - 734px/2);
         padding-right: calc(50% - 734px/2);
     }
-    .page1__content {
+    .promo__content {
         margin-bottom: 0px;
     }
-    .page1__title__start {
+    .promo__title__start {
         font-size: 46px;
     }
-    .page1__title__end {
+    .promo__title__end {
         font-size: 26px;
     }
-    .page2 {
+    .offer {
         grid-template-rows: 167px 116px;
         padding-bottom: 109.92px;
         gap: 20px;
     }
-    .page3 {
+    .featured_items_header {
         padding-bottom: 70.52px;
     }
-    .page3__text {
+    .featured_items_header__text {
         margin-top: 3.3px;
     }
-    .page3__product {
+    .featured_items_header__product {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 16px;
         margin-top: 72.74px;
     }
-    .page3__button {
+    .featured_items_header__button {
         margin-top: 32.48px
     }
 }
 
 @media (max-width:768px) {
-    .page4 {
+    .catalog {
         flex-direction: column;
         gap: 48px;
     }
-    .page5 {
+    .advantages {
         padding-top: 64px;
         padding-bottom: 140px;
         flex-direction: column;
@@ -528,21 +528,21 @@ header svg:hover path {
     .header__main__left {
         align-items: center;
     }
-    .page1 {
+    .promo {
         padding-top: 160px;
         padding-bottom: 160px;
         justify-content: center;
     }
-    .page1__photo {
+    .promo__photo {
         display: none;
     }
-    .page1__title__start {
+    .promo__title__start {
         font-size: 38px;
     }
-    .page1__title__end {
+    .promo__title__end {
         font-size: 20px;
     }
-    .page2 {
+    .offer {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -558,20 +558,20 @@ header svg:hover path {
         width: 210%;
         margin: 0 0 0 -190px;
     }
-    .page3__product {
+    .featured_items_header__product {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
         justify-content: center;
     }
-    .page3__button {
+    .featured_items_header__button {
         margin-top: 70.52px;
     }
-    .page5__content__right {
+    .advantages__content__right {
         gap: 20px;
     }
-    .page5__content__right__p2 {
+    .advantages__content__right__p2 {
         text-align: center;
     }
     .footer__ {
@@ -593,15 +593,15 @@ header svg:hover path {
     .display__none {
         display: none;
     }
-    .page1 {
+    .promo {
         padding-top: 148px;
         padding-bottom: 149px;
         margin-bottom: 0px;
     }
-    .page1__content {
+    .promo__content {
         padding-left: 15px;
     }
-    .page2 {
+    .offer {
         padding-top: 64px;
         gap: 32px;
         padding-bottom: 64px;
@@ -616,20 +616,20 @@ header svg:hover path {
         width: 210%;
         margin: 0 0 0 -190px;
     }
-    .page3__product {
+    .featured_items_header__product {
         padding-bottom: 40.61px;
         gap: 15.62px;
     }
-    .page3__button {
+    .featured_items_header__button {
         margin-top: 0px;
     }
-    .page3 {
+    .featured_items_header {
         padding-bottom: 85px;
     }
-    .page4 {
+    .catalog {
         gap: 45px;
     }
-    .page5 {
+    .advantages {
         padding-top: 64px;
         padding-bottom: 110px;
         gap: 59px;
@@ -651,15 +651,15 @@ header svg:hover path {
     .header__main__left {
         gap: 20px;
     }
-    .page1 {
+    .promo {
         padding-top: 148px;
         padding-bottom: 149px;
         margin-bottom: 0px;
     }
-    .page1__content {
+    .promo__content {
         padding-left: 15px;
     }
-    .page2 {
+    .offer {
         padding-top: 64px;
         gap: 32px;
         padding-bottom: 64px;
@@ -674,17 +674,21 @@ header svg:hover path {
         width: 210%;
         margin: 0 0 0 -190px;
     }
-    .page3__product {
+    .featured_items_header__product {
         padding-bottom: 40.61px;
         gap: 15.62px;
     }
-    .page3__button {
+    .featured_items_header__button {
         margin-top: 0px;
     }
-    .page3 {
+    .featured_items_header {
         padding-bottom: 85px;
     }
-    .page3__photo {
+    .featured_items_header__photo {
         width: 100%;
+    }
+    .footer__ {
+        flex-direction: column-reverse;
+        gap: 40px;
     }
 }
